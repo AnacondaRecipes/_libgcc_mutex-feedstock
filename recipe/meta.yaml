@@ -9,7 +9,7 @@ build:
   string: {{ libgcc_mutex_build_string }}
   {% if libgcc_mutex_build_string == "free" %}
   track_features:
-    - old
+    - free_channel_libgcc
   {% endif %}
 
 about:
