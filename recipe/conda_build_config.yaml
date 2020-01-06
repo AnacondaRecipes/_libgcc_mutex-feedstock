@@ -1,3 +1,4 @@
 libgcc_mutex_build_string:
   - main
   - free
+  - conda-forge
