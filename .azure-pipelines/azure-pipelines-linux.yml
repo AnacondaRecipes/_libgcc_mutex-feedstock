@@ -10,6 +10,10 @@ jobs:
   strategy:
     maxParallel: 8
     matrix:
+      linux_libgcc_mutex_build_stringconda_forge:
+        CONFIG: linux_libgcc_mutex_build_stringconda_forge
+        UPLOAD_PACKAGES: True
+        DOCKER_IMAGE: condaforge/linux-anvil-comp7
       linux_libgcc_mutex_build_stringfree:
         CONFIG: linux_libgcc_mutex_build_stringfree
         UPLOAD_PACKAGES: True
