@@ -36,6 +36,13 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
+              <td>linux_libgcc_mutex_build_stringconda_forge</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8621&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/_libgcc_mutex-feedstock?branchName=master&jobName=linux&configuration=linux_libgcc_mutex_build_stringconda_forge" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_libgcc_mutex_build_stringfree</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8621&branchName=master">
@@ -47,6 +54,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8621&branchName=master">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/_libgcc_mutex-feedstock?branchName=master&jobName=linux&configuration=linux_libgcc_mutex_build_stringmain" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le_libgcc_mutex_build_stringconda_forge</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8621&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/_libgcc_mutex-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_libgcc_mutex_build_stringconda_forge" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -175,5 +189,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@beckermr](https://github.com/beckermr/)
 * [@isuruf](https://github.com/isuruf/)
 
