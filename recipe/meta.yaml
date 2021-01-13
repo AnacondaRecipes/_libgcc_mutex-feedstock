@@ -1,16 +1,29 @@
 {% set version = "0.1" %}
 
-
 package:
   name: _libgcc_mutex
   version: {{ version }}
 
 build:
+  skip: True  # [not (linux64 or ppc64le or s390x)]
   string: {{ libgcc_mutex_build_string }}
+  number: 0
   {% if libgcc_mutex_build_string == "free" %}
   track_features:
     - free_channel_libgcc
   {% endif %}
 
+test:
+  commands:
+    - echo "Hello World!"
+
 about:
-  summary: Mutex for libgcc and libgcc-ng
+  home: https://github.com/AnacondaRecipes/_libgcc_mutex-feedstock
+  license: None
+  summary: 'Mutex for libgcc and libgcc-ng'
+
+extra:
+  recipe-maintainers:
+    - isuruf
+    - beckermr
+    - ktietz
