@@ -5,7 +5,7 @@ package:
   version: {{ version }}
 
 build:
-  skip: True  # [not (linux64 or ppc64le)]
+  skip: True  # [not (linux64 or ppc64le or s390x)]
   string: {{ libgcc_mutex_build_string }}
   number: 0
   {% if libgcc_mutex_build_string == "free" %}
@@ -26,3 +26,5 @@ extra:
   recipe-maintainers:
     - isuruf
     - beckermr
+    - ktietz
+    - mingwandroid

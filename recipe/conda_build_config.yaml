@@ -2,3 +2,4 @@ libgcc_mutex_build_string:
   - main
   - free
   - conda_forge
+  - anaconda_defaults
